@@ -21,14 +21,21 @@ public class DFLTLaserProj : MonoBehaviour
         {
             // Check if the enemy ship has a script that handles health
             var enemyShip = collision.gameObject.GetComponent<ShipHealth>();
+            var bossShip = collision.gameObject.GetComponent<BlackHealth>();
             if (enemyShip != null)
             {
                 enemyShip.TakeDamage(2);
+                
+            }
+            else if (bossShip != null)
+            {
+                bossShip.TakeDamage(2);
             }
             else
             {
                 Destroy(collision.gameObject);
             }
+
             Destroy(gameObject);
         }
         if (collision.gameObject.tag == "Boundary")

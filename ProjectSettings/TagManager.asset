@@ -16,6 +16,7 @@ TagManager:
   - GoldShip
   - BlueShip
   - DefaultLaser
+  - Gem
   layers:
   - Default
   - TransparentFX
