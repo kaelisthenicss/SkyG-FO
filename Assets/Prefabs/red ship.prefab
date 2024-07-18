@@ -12,9 +12,8 @@ GameObject:
   - component: {fileID: 4256410368389962387}
   - component: {fileID: 8982248304286964142}
   - component: {fileID: 1202706331473082190}
-  - component: {fileID: -2797288232660856425}
+  - component: {fileID: -176991265624692604}
   - component: {fileID: 1768789332134117406}
-  - component: {fileID: 381495191305569991}
   m_Layer: 0
   m_Name: red ship
   m_TagString: RedShip
@@ -161,7 +160,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &-2797288232660856425
+--- !u!114 &-176991265624692604
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -173,7 +172,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf2311b9df6f5fb409f0a5a4676afa78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveDistance: 0.8
 --- !u!114 &1768789332134117406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -187,16 +185,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lives: 10
---- !u!114 &381495191305569991
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7326678219686918003}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf2311b9df6f5fb409f0a5a4676afa78, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveDistance: 0.4
